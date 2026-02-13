@@ -1,0 +1,135 @@
+.em {
+    width: 420px;
+    padding: 100px;
+   
+    background: rgba(255, 255, 255, 0.15);
+    /* shaffoflik */
+    backdrop-filter: blur(10px);
+    /* orqasini xiralashtiradi */
+    -webkit-backdrop-filter: blur(10px);
+    /* safari uchun */
+
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 0 8px 32px 20px rgba(175, 172, 172, 0.25);
+    
+    
+}
+
+
+.wrq {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-size: 25px;
+   padding-bottom: 20px;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.em {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 350px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.input-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    border-bottom: 2px solid #fff;
+    /* bitta chiziq */
+    padding: 15px 5px 10px 0;
+
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: #ffffff;
+    font-size: 18px;
+    pointer-events: none;
+    
+}
+.icon{
+    color: rgb(255, 255, 255);
+}
+.qw{
+    display: flex;
+    justify-content:start;
+    color: rgb(255, 255, 255);
+}
+.uj{
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-right: -100px;
+  
+    }
+.vb{
+    display: flex;
+   margin-top: -30px;
+    
+}
+.xc{
+    display: flex;
+    justify-content: end;
+    padding-left: 180px;
+    color: rgb(255, 255, 255);
+    
+}
+.rt{
+    
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 10px 25px;
+}
+.bn{
+    background-color: #ffffff;
+        border-radius: 25px;
+       display: flex;
+       justify-content: center;
+        margin: 0px 40px 0px 40px;
+        padding: 10px 110px 10px 110px;
+        font-size: 18px;
+}
+.qx{
+    display: flex;
+    padding-top: -70px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
